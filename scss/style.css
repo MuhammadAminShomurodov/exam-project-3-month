@@ -1004,28 +1004,119 @@ li {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
   .header-start {
     flex-wrap: wrap;
-  }
-  .main-start .cards .card {
-    display: flex;
+    text-align: center;
     align-items: center;
   }
+  .header-start .header-start-left h1 {
+    width: 690px !important;
+    font-size: 40px !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .header-start .header-start-left p {
+    width: 690px !important;
+    font-size: 15px !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .header-start .header-start-right {
+    padding-top: 73px;
+  }
+  .header-start .header-start-right img {
+    border-radius: 40px;
+  }
+  .main-start .cards {
+    flex-wrap: wrap;
+    background: none;
+    box-shadow: none;
+    width: 690px;
+  }
+  .main-start .cards .card {
+    padding: 0;
+    display: flex;
+    border: none;
+    width: 690px !important;
+    height: 164px;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    margin-bottom: 16px;
+    border-radius: 20px;
+  }
+  .main-start .cards .card img {
+    padding-left: 32px;
+  }
+  .main-start .cards .card .card-text h2 {
+    padding-left: 32px !important;
+    padding-bottom: 20px !important;
+    padding: 0;
+    max-width: 690px;
+  }
+  .main-start .cards .card .card-text p {
+    padding-left: 32px;
+    max-width: 394px !important;
+  }
+  .main-start .cards .card-3 {
+    padding: 0;
+    display: flex;
+    border: none;
+    width: 690px !important;
+    height: 164px;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+    border-radius: 20px;
+  }
+  .main-start .cards .card-3 img {
+    padding-left: 32px;
+  }
+  .main-start .cards .card-3 .card-text h2 {
+    padding-left: 32px !important;
+    padding-bottom: 20px !important;
+    padding: 0;
+    max-width: 690px;
+  }
+  .main-start .cards .card-3 .card-text p {
+    padding-left: 32px;
+    max-width: 394px !important;
+  }
   .why-us-img {
-    width: 729px;
+    width: 715px;
+    height: 350px;
+    text-align: center;
+    padding-right: 25px;
+    margin: 0 auto;
+  }
+  .completed-work-text p {
+    width: 500px;
   }
   .completed-work-cards {
     flex-direction: column;
   }
   .completed-work-cards .card {
     margin-bottom: 32px;
+    max-width: 690px;
+  }
+  .completed-work-cards .card p {
+    max-width: 509px !important;
+  }
+  .completed-work-cards .card img {
+    width: 690px;
   }
   .attracted-clients {
-    padding-left: 42px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .attracted-clients .left h2 {
     padding-bottom: 42px;
+    margin-left: -150px;
   }
   .delivery-stages-cards .card {
     padding-left: 40px;
@@ -1036,12 +1127,32 @@ li {
   .trust-us-cards {
     grid-template-columns: 50% 50% !important;
   }
+  .trust-us-cards .card-2 {
+    border-right: none !important;
+  }
+  .trust-us-cards .card-6 {
+    border-right: none !important;
+  }
   .employess-card {
     flex-wrap: wrap;
+    max-width: 330px !important;
+    height: 289px;
+  }
+  .employess-card .employess-color {
+    height: 289px !important;
+  }
+  .employess-card .people-1 {
+    width: 100px;
+    height: 100px;
+    margin-top: -150px;
   }
   .employess-card .card-text {
+    margin-top: -150px;
     padding-left: 45px;
     padding-bottom: 32px;
+  }
+  .employess-card .card-text img {
+    margin-top: -10px;
   }
   .contact-us {
     flex-wrap: wrap;
@@ -1051,5 +1162,6 @@ li {
   }
   .footer-logo {
     width: 690px;
+    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */

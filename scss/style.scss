@@ -1038,33 +1038,131 @@ li {
   }
 }
 @media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
   .header-start {
     flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    .header-start-left {
+      h1 {
+        width: 690px !important;
+        font-size: 40px !important;
+        text-align: center;
+        margin: 0 auto;
+      }
+      p {
+        width: 690px !important;
+        font-size: 15px !important;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    .header-start-right {
+      padding-top: 73px;
+      img {
+        border-radius: 40px;
+      }
+    }
   }
   .main-start {
     .cards {
+      flex-wrap: wrap;
+      background: none;
+      box-shadow: none;
+      width: 690px;
       .card {
+        padding: 0;
         display: flex;
+        border: none;
+        width: 690px !important;
+        height: 164px;
         align-items: center;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 15px 0px #0000001f;
+        margin-bottom: 16px;
+        border-radius: 20px;
+        img {
+          padding-left: 32px;
+        }
+
+        .card-text {
+          h2 {
+            padding-left: 32px !important;
+            padding-bottom: 20px !important;
+            padding: 0;
+            max-width: 690px;
+          }
+          p {
+            padding-left: 32px;
+            max-width: 394px !important;
+          }
+        }
+      }
+      .card-3 {
+        padding: 0;
+        display: flex;
+        border: none;
+        width: 690px !important;
+        height: 164px;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 15px 0px #0000001f;
+        border-radius: 20px;
+        img {
+          padding-left: 32px;
+        }
+        .card-text {
+          h2 {
+            padding-left: 32px !important;
+            padding-bottom: 20px !important;
+            padding: 0;
+            max-width: 690px;
+          }
+          p {
+            padding-left: 32px;
+            max-width: 394px !important;
+          }
+        }
       }
     }
   }
   .why-us-img {
-    width: 729px;
+    width: 715px;
+    height: 350px;
+    text-align: center;
+    padding-right: 25px;
+    margin: 0 auto;
+  }
+  .completed-work-text {
+    p {
+      width: 500px;
+    }
   }
   .completed-work-cards {
     flex-direction: column;
 
     .card {
       margin-bottom: 32px;
+      max-width: 690px;
+      p {
+        max-width: 509px !important;
+      }
+      img {
+        width: 690px;
+      }
     }
   }
   .attracted-clients {
-    padding-left: 42px;
     flex-wrap: wrap;
+    justify-content: center;
     .left {
       h2 {
         padding-bottom: 42px;
+        margin-left: -150px;
       }
     }
   }
@@ -1078,12 +1176,32 @@ li {
   }
   .trust-us-cards {
     grid-template-columns: 50% 50% !important;
+    .card-2 {
+      border-right: none !important;
+    }
+    .card-6 {
+      border-right: none !important;
+    }
   }
   .employess-card {
     flex-wrap: wrap;
+    max-width: 330px !important;
+    height: 289px;
+    .employess-color {
+      height: 289px !important;
+    }
+    .people-1 {
+      width: 100px;
+      height: 100px;
+      margin-top: -150px;
+    }
     .card-text {
+      margin-top: -150px;
       padding-left: 45px;
       padding-bottom: 32px;
+      img {
+        margin-top: -10px;
+      }
     }
   }
   .contact-us {
@@ -1096,5 +1214,6 @@ li {
   }
   .footer-logo {
     width: 690px;
+    padding: 0;
   }
 }
